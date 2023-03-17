@@ -6,6 +6,7 @@ import { Spinner } from '@chakra-ui/react';
 function ConnectWallet() {
   const [loading, setLoading] = useState(true);
   const [formActive, setFormActive] = useState(false);
+  const [isError, setIsError] = useState(false);
 
   useEffect(() => {
     setInterval(() => {
@@ -19,12 +20,20 @@ function ConnectWallet() {
         {loading ? (
           <Box className='flex flex-col items-center'>
             <Spinner color='green.500' />
-            <Text color={'black'} className="font-light">
+            <Text color={'black'} className='font-light'>
               Connecting to wallet...
             </Text>
           </Box>
         ) : formActive ? (
-          <ConnectForm />
+          isError ? (
+            <Box className='flex flex-col items-center justify-center'>
+              <img src="/error-anim.gif" alt="error" />
+              <Text color={"red.400"} className="text-center">There was an error while connecting</Text>
+              <Text color={"red.400"} className="text-center">Try again later</Text>
+            </Box>
+          ) : (
+            <ConnectForm setIsError={setIsError} />
+          )
         ) : (
           <FailedToConnect setFormActive={setFormActive} />
         )}
