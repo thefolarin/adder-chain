@@ -52,7 +52,7 @@ export default function Hero() {
             <Button
               as={Link}
               colorScheme={'green'}
-              href='/connect'
+              href='/select-wallet'
               bg={'green.400'}
               rounded={'full'}
               px={6}
