@@ -87,7 +87,7 @@ export default function Features() {
               heading={feature.title}
               icon={<Icon as={feature.icon} w={10} h={10} />}
               description={feature.description}
-              href={'/connect'}
+              href={'/select-wallet'}
             />
           ))}
         </Flex>
