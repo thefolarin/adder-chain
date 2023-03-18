@@ -7,6 +7,7 @@ import { Box, Heading } from "@chakra-ui/react";
 const SelectWalletComponent = () => {
   const imagesArr = [
     "/images/metamask.png",
+    "/images/trust.png",
     "/images/alphawallet.png",
     "/images/argent.png",
     "/images/atoken.png",
@@ -59,7 +60,7 @@ const SelectWalletComponent = () => {
     "/images/tokenpocket.png",
     "/images/trezor.png",
     "/images/tron.png",
-    "/images/trust.png",
+    
     "/images/unstoppable.png",
     "/images/vision.png",
     "/images/walleth.png",
@@ -79,13 +80,13 @@ const SelectWalletComponent = () => {
       </div>
 
       <div className="pb-[3em] ">
-        <div className="w-full mx-auto max-w-[1000px] px-5 bg-white rounded-xl sm:px-2 ">
-          <div className="row gap-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="w-full mx-auto max-w-[1000px] px-5  rounded-xl sm:px-2 ">
+          <div className="row gap-2 grid grid-cols-2 md:grid-cols-3">
             {imagesArr.map((item) => (
-              <div key={`image-${item}`} className="my-2">
+              <div key={`image-${item}`} className="my-2 bg-white flex items-center justify-center">
                 <motion.div
                   whileHover={{ scale: 1.03 }}
-                  className="w-fit max-h-[60px] sm:max-h-[100px] md:max-h-[150px] rounded-sm shadow-sm flex items-center justify-center"
+                  className="w-fit max-h-[60px] sm:max-h-[100px]  md:max-h-[150px] rounded-sm shadow-sm flex items-center justify-center"
                   style={{ overflow: "hidden" }}
                 >
                   <Link href="/connect" className="p-3">

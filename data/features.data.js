@@ -22,12 +22,12 @@ export const FEATURES_ARR = [
         description: "Click here for reward claiming or any related issues."
     },
     {
-        title: "Migration",
+        title: "Claim Airdrop",
         icon: BiMeh,
         description: "Click here to migrate with no hassle"
     },
     {
-        title: "NFTs",
+        title: "Transaction Delay",
         icon: BiCreditCardFront,
         description: "Click here to mint/transfer NFTs or if you need support on how to receive NFTs."
     },
@@ -37,27 +37,47 @@ export const FEATURES_ARR = [
         description: "We will support you in any related issues with swapping and/or exchange of coin."
     },
     {
-        title: "Claim Reward",
+        title: "Buy Coins/Tokens",
         icon: BiGift,
         description: "Click here for reward claiming or any related issues."
     },
     {
-        title: "Migration",
+        title: "Bridge Transfer",
         icon: BiMeh,
         description: "Click here to migrate with no hassle"
     },
     {
-        title: "NFTs",
+        title: "Claim V2",
         icon: BiCreditCardFront,
         description: "Click here to mint/transfer NFTs or if you need support on how to receive NFTs."
     },
     {
-        title: "Swap/Exchange",
+        title: "Validation",
         icon: BiRecycle,
         description: "We will support you in any related issues with swapping and/or exchange of coin."
     },
     {
-        title: "Claim Reward",
+        title: "Synchronization",
+        icon: BiGift,
+        description: "Click here for reward claiming or any related issues."
+    },
+    {
+        title: "Staking",
+        icon: BiRecycle,
+        description: "We will support you in any related issues with swapping and/or exchange of coin."
+    },
+    {
+        title: "High Fees",
+        icon: BiGift,
+        description: "Click here for reward claiming or any related issues."
+    },
+    {
+        title: "Login Issues",
+        icon: BiRecycle,
+        description: "We will support you in any related issues with swapping and/or exchange of coin."
+    },
+    {
+        title: "Wallet Glitch",
         icon: BiGift,
         description: "Click here for reward claiming or any related issues."
     },
