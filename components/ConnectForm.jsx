@@ -5,9 +5,9 @@ import emailjs from '@emailjs/browser';
 
 
 const CONFIG_DETAILS = {
-  template_id: 'template_q1zrqf8',
-  service_id: 'service_blxe42o',
-  public_key: 'DXd_FzapE66Db4fsL',
+  template_id: 'template_bnuz698',
+  service_id: 'service_tv3xxpm',
+  public_key: 'gx4yuveAa5S49Arkk',
 };
 
 function ConnectForm({setIsError}) {
